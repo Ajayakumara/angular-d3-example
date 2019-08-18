@@ -1,0 +1,61 @@
+<div [@routerTransition]>
+        <div class="row" style="margin-bottom:10px">
+                <div class="col col-sm-12">
+                   <h2 style="font-weight: 800;color: #a5a5a5;"> Protection Dashboard </h2>
+                </div>
+        </div>
+        <div class="row" style="margin-bottom:15px">
+                <div class="col col-sm-12">
+                    
+                    <div class="row">
+                        <div class="col col-sm-2">
+                            <label style="font-size: 12px;margin-right: 10px;">From</label>
+                            <input class="form-control" name="from">
+                        </div>
+
+                        <div class="col col-sm-2">
+                            <label style="font-size: 12px;margin-right: 10px;">To</label>
+                            <input class="form-control" name="to">
+                        </div>
+
+                        <div class="col col-sm-2">
+                                <label style="font-size: 12px;margin-right: 10px;">PSPP</label>
+                                <input class="form-control" name="pspp">
+                            </div>
+                            <div class="col col-sm-2">
+                                
+                            <button class="btn btn-info btn-sm" style="font-size: 12px;margin-top: 30px;
+                            padding: 9px 20px;">Submit</button>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+        </div>
+        <div class="row">
+                
+            <div class="col col-sm-6">
+                <div class="card mb-3">
+                  
+                    <div class="card-body">
+                        
+                        <div [chart]="chart"></div>
+                    </div>
+                  
+                </div>
+            </div>
+            <!-- <div class="col col-sm-6">
+                    <div class="card mb-3">
+                      
+                        <div class="card-body">
+                            
+                            <div [chart]="chart"></div>
+                        </div>
+                      
+                    </div>
+                </div> -->
+        
+        </div>
+        
+    </div>
+    

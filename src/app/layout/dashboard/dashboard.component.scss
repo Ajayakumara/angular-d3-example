@@ -1,0 +1,43 @@
+ul.horizontal-list
+{
+    list-style: none;
+    margin-left: -30px;
+    
+}
+ul.horizontal-list li {
+    display: inline;
+}
+ul.horizontal-list li a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    color: #777777;
+}
+ul.horizontal-list li.active a
+{
+    background-color: #1e93e6;
+    border-radius: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #fff !important;
+}
+.text-centered1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.text-centered
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.titles
+{
+    text-align: center !important;
+}

@@ -1,0 +1,61 @@
+<div [@routerTransition]>
+        
+        <div class="row" style="margin-bottom:10px">
+                <div class="col col-sm-12">
+                   <h2 style="font-weight: 800;color: #a5a5a5;"> DCC Health Check </h2>
+                </div>
+        </div>
+        <div class="row" style="margin-bottom:15px">
+                <div class="col col-sm-12">
+                    <div class="row" style="margin-bottom: 15px;">
+                       <div class="col col-sm-6">
+                          <label for="" style="margin-top: 15px;
+                          text-align: right;
+                          clear: both;
+                          float: left;
+                          margin-right: 15px;">Deflection</label>
+                            <input class="form-control" name="from" style="    width: 300px;
+                            
+                            margin-top: 10px;
+                            float: left;
+                            margin-right: 15px;">
+                            <button class="btn btn-info btn-sm" style="font-size: 12px;margin-top: 10px;
+                            padding: 9px 20px;">Set</button>
+                            
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 15px;">
+                            <div class="col col-sm-6">
+                               <label for="" style="margin-top: 15px;
+                               text-align: right;
+                               clear: both;
+                               float: left;
+                               margin-right: 27px;">increase</label>
+                                 <input class="form-control" name="from" style="    width: 300px;
+                                 
+                                 margin-top: 10px;
+                                 float: left;
+                                 margin-right: 15px;">
+                                 <button class="btn btn-info btn-sm" style="font-size: 12px;margin-top: 10px;
+                                 padding: 9px 20px;">Set</button>
+                                 
+                             </div>
+                         </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col col-sm-6">
+                <div class="card mb-3">
+                 
+                    <div class="card-body">
+                    
+                        <div [chart]="chart"></div>
+                    </div>
+                  
+                </div>
+            </div>
+        
+        </div>
+        
+    </div>
+    

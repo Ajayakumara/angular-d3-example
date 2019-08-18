@@ -1,0 +1,43 @@
+.logo-section
+{
+    padding-right: 35px;
+}
+.login-signup
+{
+    margin-top: 10px;
+    float: right;
+    font-size: 18px;
+}
+a#login
+{
+    padding: 20px;
+    cursor: pointer;
+}
+a#signup
+{
+    cursor: pointer;
+}
+.signin-title
+{
+    padding: 10px 16px;
+}
+.signin-title-slogan
+{
+    padding: 0px 16px;
+    margin-top: -30px;
+
+    
+    
+}
+.slogan{
+    font-size: 14px;
+    font-weight: 400;
+    color: #bfbfbf;
+}
+
+
+.forgetpwd
+{
+    float: right;
+    cursor: pointer;
+}
